@@ -1,9 +1,5 @@
 import streamlit as st
 import pickle
-df.rename(columns={'Air-Cond': 'AirCond'}, inplace=True)
-df.rename(columns={'Washing Machine': 'WashingMachine'}, inplace=True)
-df.rename(columns={'Near KTM/LRT': 'NearKTMLRT'}, inplace=True)
-df.rename(columns={'Cooking Allowed': 'CookingAllowed'}, inplace=True)
 
 def main():
     style = """<div style='background-color:blue; padding:12px'>
