@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import pandas as pd
 
 def main():
     style = """<div style='background-color:blue; padding:12px'>
